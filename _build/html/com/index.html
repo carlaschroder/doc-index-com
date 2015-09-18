@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>ownCloud Documentation Overview &mdash; ownCloud  documentation</title>
+    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/responsive.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/bootstrap.js"></script>
+    <link rel="top" title="ownCloud  documentation" href="#" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+(function () {
+  /**
+   * Patch TOC list.
+   *
+   * Will mutate the underlying span to have a correct ul for nav.
+   *
+   * @param $span: Span containing nested UL's to mutate.
+   * @param minLevel: Starting level for nested lists. (1: global, 2: local).
+   */
+  var patchToc = function ($ul, minLevel) {
+    var findA;
+
+    // Find all a "internal" tags, traversing recursively.
+    findA = function ($elem, level) {
+      var level = level || 0,
+        $items = $elem.find("> li > a.internal, > ul, > li > ul");
+
+      // Iterate everything in order.
+      $items.each(function (index, item) {
+        var $item = $(item),
+          tag = item.tagName.toLowerCase(),
+          pad = 15 + ((level - minLevel) * 10);
+
+        if (tag === 'a' && level >= minLevel) {
+          // Add to existing padding.
+          $item.css('padding-left', pad + "px");
+          console.log(level, $item, 'padding-left', pad + "px");
+        } else if (tag === 'ul') {
+          // Recurse.
+          findA($item, level + 1);
+        }
+      });
+    };
+
+    console.log("HERE");
+    findA($ul);
+  };
+
+  $(document).ready(function () {
+    // Add styling, structure to TOC's.
+    $(".dropdown-menu").each(function () {
+      $(this).find("ul").each(function (index, item){
+        var $item = $(item);
+        $item.addClass('unstyled');
+      });
+      $(this).find("li").each(function () {
+        $(this).parent().append(this);
+      });
+    });
+
+    // Patch in level.
+    patchToc($("ul.globaltoc"), 2);
+    patchToc($("ul.localtoc"), 2);
+
+    // Enable dropdown.
+    $('.dropdown-toggle').dropdown();
+  });
+}());
+</script>
+
+  </head>
+  <body>
+  
+
+<div class="header_con">
+<div class="container">
+<h1 id="site-title"><a href="http://doc.owncloud.com" title="ownCloud" rel="home">ownCloud</a></h1>	
+
+<form class="headersearch" action="search.html" method="get">
+  <input type="text" name="q" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+
+<div class="follow">
+<p><a class="visible" href="https://owncloud.com" title="ownCloud">Back to owncloud.com</a>|<span class="visible">Follow us:</span></p>  
+<a class="twitter" href="https://twitter.com/#!/owncloudcom" target="_blank">Twitter</a>
+<a class="facebook" href="http://www.facebook.com/owncloud" target="_blank">Facebook</a>
+<a class="google" href="https://plus.google.com/b/102805591550379137055/" target="_blank">Google</a>
+</div>
+
+</div>
+</div>
+
+<div id="main">
+<div class="container">
+  <div class="content">
+
+    </div>
+    
+			<div class="row">
+				<div class="span3">
+					<div class="sidebar">
+						<div class="box sidenavi">
+							<div class="menu-support-container">
+								<ul id="menu-support" class="menu">
+									<ul>
+										
+<li><a href="#">Table of Contents</a></li>
+									</ul>
+                  
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+        
+
+				<div class="span9">
+					<div class="page-content">
+						
+  <div class="section" id="owncloud-documentation-overview">
+<h1>ownCloud Documentation Overview<a class="headerlink" href="#owncloud-documentation-overview" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="getting-owncloud">
+<h2>Getting ownCloud<a class="headerlink" href="#getting-owncloud" title="Permalink to this headline">¶</a></h2>
+<p>You can download and install ownCloud on your own Linux server, use the Web
+Installer to install it on shared Web hosting, try some prefab cloud or virtual
+machine images, or sign up for hosted ownCloud services. See the <a class="reference external" href="https://owncloud.org/install/">Get Started</a> page for more information.</p>
+</div>
+<div class="section" id="reporting-documentation-bugs-how-to-contribute">
+<h2>Reporting Documentation Bugs &amp; How to Contribute<a class="headerlink" href="#reporting-documentation-bugs-how-to-contribute" title="Permalink to this headline">¶</a></h2>
+<p>If you find an error or omission in any of the manuals, we welcome your bug
+reports and contributions. Please see <a class="reference internal" href="howto_contribute.html"><em>How to Contribute to the ownCloud Documentation</em></a> for instructions.</p>
+<p>Starting with ownCloud 8.0, the community and enterprise server administration
+manuals are combined.</p>
+</div>
+<div class="section" id="owncloud-8-2">
+<h2>ownCloud 8.2<a class="headerlink" href="#owncloud-8-2" title="Permalink to this headline">¶</a></h2>
+<p>This documents the <em>development</em> version of ownCloud.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.2/user_manual/">User Manual</a> (<a class="reference external" href="https://doc.owncloud.com/server/8.2/ownCloud_User_Manual.pdf">Download
+PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.2/admin_manual/">Administration Manual</a>
+(<a class="reference external" href="https://doc.owncloud.org/server/8.2/ownCloud_Server_Administration_Manual.pdf">Download PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.2/developer_manual/">Developer Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/8.2/ownCloudDeveloperManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-8-1">
+<h2>ownCloud 8.1<a class="headerlink" href="#owncloud-8-1" title="Permalink to this headline">¶</a></h2>
+<p>This documents the <em>latest production</em> version of ownCloud.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.1/user_manual/">User Manual</a> (<a class="reference external" href="https://doc.owncloud.com/server/8.1/ownCloud_User_Manual.pdf">Download
+PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.1/admin_manual/">Administration Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/8.1/ownCloud_Server_Administration_Manual.pdf">Download PDF</a> )</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.1/developer_manual/">Developer Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/8.1/ownCloudDeveloperManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-8-0">
+<h2>ownCloud 8.0<a class="headerlink" href="#owncloud-8-0" title="Permalink to this headline">¶</a></h2>
+<p>This documents the <em>previous production</em> version of ownCloud, Server and
+Enterprise Subscription.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.0/user_manual/">User Manual</a> (<a class="reference external" href="https://doc.owncloud.com/server/8.0/ownCloud_User_Manual.pdf">Download
+PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.0/admin_manual/">Administration Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/8.0/ownCloud_Server_Administration_Manual.pdf">Download PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/8.0/developer_manual/">Developer Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/8.0/ownCloudDeveloperManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="desktop-client-and-mobile-apps">
+<h1>Desktop Client and Mobile Apps<a class="headerlink" href="#desktop-client-and-mobile-apps" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="owncloud-desktop-client-2-0">
+<h2>ownCloud Desktop Client 2.0<a class="headerlink" href="#owncloud-desktop-client-2-0" title="Permalink to this headline">¶</a></h2>
+<p>The <em>latest</em> ownCloud desktop sync client release, suitable for production use.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/desktop/2.0/">ownCloud Desktop Client Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/desktop/2.0/ownCloudClientManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-desktop-client-1-8">
+<h2>ownCloud Desktop Client 1.8<a class="headerlink" href="#owncloud-desktop-client-1-8" title="Permalink to this headline">¶</a></h2>
+<p>The <em>previous</em> ownCloud desktop sync client release. Users are encouraged to
+upgrade.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/desktop/1.8/">ownCloud Desktop Client Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/desktop/1.8/ownCloudClientManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-android-app">
+<h2>ownCloud Android App<a class="headerlink" href="#owncloud-android-app" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/android/">ownCloud Android App Manual</a> (<a class="reference external" href="https://doc.owncloud.com/android/ownCloudAndroidAppManual.pdf">Download
+PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-ios-app">
+<h2>ownCloud iOS App<a class="headerlink" href="#owncloud-ios-app" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/ios/">ownCloud iOS App Manual</a> (<a class="reference external" href="https://doc.owncloud.com/ios/ownCloudiOSAppManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="older-owncloud-server-releases">
+<h1>Older ownCloud Server Releases<a class="headerlink" href="#older-owncloud-server-releases" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="owncloud-enterprise-edition-7-0">
+<h2>ownCloud Enterprise Edition 7.0<a class="headerlink" href="#owncloud-enterprise-edition-7-0" title="Permalink to this headline">¶</a></h2>
+<p>This documents the <em>older</em> ownCloud enterprise release. Users are encouraged to
+upgrade to the latest production release.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/server/7.0EE/user_manual/">User Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/7.0EE/ownCloudEEUserManual.pdf">Download
+PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/7.0EE/admin_manual/">Administrator Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/7.0EE/ownCloudEEAdminManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+<div class="section" id="owncloud-enterprise-edition-6-0">
+<h2>ownCloud Enterprise Edition 6.0<a class="headerlink" href="#owncloud-enterprise-edition-6-0" title="Permalink to this headline">¶</a></h2>
+<p>This documents the <em>older</em> ownCloud release. ownCloud 6 is at end-of-life and
+users are encouraged to upgrade to the latest production release.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://doc.owncloud.com/server/6.0EE/user_manual/">User Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/6.0EE/ownCloudEEUserManual.pdf">Download
+PDF</a>)</li>
+<li><a class="reference external" href="https://doc.owncloud.com/server/6.0EE/admin_manual/">Administrator Manual</a>
+(<a class="reference external" href="https://doc.owncloud.com/server/6.0EE/ownCloudEnterpriseManual.pdf">Download PDF</a>)</li>
+</ul>
+</div>
+</div>
+
+
+					</div>
+				</div>
+			</div>
+    
+  </div>
+</div>
+</div>
+<footer class="footer">
+  <div class="container">
+  <div class="footer_navi">
+  
+  <div class="menu-footer-navigation-container">
+  	<ul id="menu-footer-navigation" class="menu">
+  		<li><a href="https://owncloud.com">Home</a></li>
+  		<li><a href="https://owncloud.com/about">About ownCloud</a></li>
+  		<li><a href="https://owncloud.com/event/events">Events</a></li>
+  		<li><a href="https://owncloud.com/become-partner">Become a Partner</a></li>
+  		<li><a href="https://owncloud.org">Community</a></li>
+  		<li><a href="https://owncloud.com/blog">Blog</a></li>
+  		<li><a href="https://owncloud.com/jobs">Jobs</a></li>
+  		<li><a href="https://owncloud.com/contact">Contact</a></li>
+  	</ul>
+  </div>
+  
+  <div class="follow_f">
+  	<ul>
+  		<li><a class="twitter" target="_blank" href="https://twitter.com/#!/owncloudcom">Twitter</a></li>
+  		<li><a class="facebook" target="_blank" href="http://www.facebook.com/owncloud">Facebook</a></li>
+  		<li><a class="google" target="_blank" href="https://plus.google.com/b/102805591550379137055/">Google</a></li>
+  	</ul>
+  </div>
+  
+  <p class="copyright">© ownCloud 2011-2013</p>
+  
+  </div>
+  </div>
+</footer>
+  </body>
+</html>
