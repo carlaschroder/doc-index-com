@@ -79,17 +79,6 @@ The *latest* ownCloud desktop sync client release, suitable for production use.
 * `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/2.1/>`_ 
   (`Download PDF 
   <https://doc.owncloud.com/desktop/2.1/ownCloudClientManual.pdf>`_)
-  
----------------------------
-ownCloud Desktop Client 2.0
----------------------------
-
-The *previous* ownCloud desktop sync client release. Users are encouraged to 
-upgrade.
-
-* `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/2.0/>`_ 
-  (`Download PDF 
-  <https://doc.owncloud.com/desktop/2.0/ownCloudClientManual.pdf>`_)
 
 -------------------- 
 ownCloud Android App  
