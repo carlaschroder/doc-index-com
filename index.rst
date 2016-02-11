@@ -80,6 +80,7 @@ clients.
 * `Building Branded ownCloud Clients 
   <https://doc.owncloud.com/branded_clients/>`_ (`Download PDF
   <https://doc.owncloud.com/branded_clients/Building_Branded_ownCloud_Clients.pdf>`_)
+  
 
 ---------------------------
 ownCloud Desktop Client 2.1
