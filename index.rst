@@ -68,7 +68,18 @@ Enterprise Subscription.
   
 ==============================
 Desktop Client and Mobile Apps
-============================== 
+==============================
+
+---------------------------------------------------
+Building Branded ownCloud Clients (Enterprise only)
+---------------------------------------------------
+
+Instructions for building branded ownCloud iOS, Android, and Desktop Sync 
+clients.
+
+* `Building Branded ownCloud Clients 
+  <https://doc.owncloud.com/branded_clients/>`_ (`Download PDF
+  <https://doc.owncloud.com/branded_clients/Building_Branded_ownCloud_Clients.pdf>`_)
 
 ---------------------------
 ownCloud Desktop Client 2.1
