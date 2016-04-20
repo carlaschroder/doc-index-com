@@ -50,6 +50,21 @@ This documents the *previous production* version of ownCloud.
   (`Download PDF 
   <https://doc.owncloud.com/server/8.2/ownCloudDeveloperManual.pdf>`_)
   
+------------
+ownCloud 9.0
+------------
+
+This documents the *next* ownCloud release.
+
+* `User Manual <https://doc.owncloud.com/server/9.1/user_manual/>`_ (`Download 
+  PDF <https://doc.owncloud.com/server/9.1/ownCloud_User_Manual.pdf>`_)
+* `Administration Manual <https://doc.owncloud.com/server/9.1/admin_manual/>`_ 
+  (`Download PDF   
+  <https://doc.owncloud.com/server/9.1/ownCloud_Server_Administration_Manual.pdf>`_)
+* `Developer Manual <https://doc.owncloud.com/server/9.1/developer_manual/>`_ 
+  (`Download PDF 
+  <https://doc.owncloud.com/server/9.1/ownCloudDeveloperManual.pdf>`_)  
+  
 ====================
 Enterprise Appliance
 ====================
