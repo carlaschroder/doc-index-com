@@ -51,7 +51,7 @@ This documents the *previous production* version of ownCloud.
   <https://doc.owncloud.com/server/8.2/ownCloudDeveloperManual.pdf>`_)
   
 ------------
-ownCloud 9.0
+ownCloud 9.1
 ------------
 
 This documents the *next* ownCloud release.
