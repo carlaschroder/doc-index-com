@@ -20,9 +20,9 @@ reports and contributions. Please see :doc:`howto_contribute` for instructions.
 Starting with ownCloud 8.0, the community and enterprise server administration 
 manuals are combined.
 
------------------------------------
-ownCloud 9.1, Latest Stable Release
------------------------------------
+------------------------------------
+Latest Stable Release - ownCloud 9.1
+------------------------------------
 
 This documents the *latest production* ownCloud release.
 
@@ -35,9 +35,9 @@ This documents the *latest production* ownCloud release.
   (`Download PDF 
   <https://doc.owncloud.com/server/9.1/ownCloudDeveloperManual.pdf>`_)  
 
-------------
-ownCloud 9.0
-------------
+--------------------------------------
+Previous Stable Release - ownCloud 9.0
+--------------------------------------
 
 This documents the *previous production* version of ownCloud.
 
