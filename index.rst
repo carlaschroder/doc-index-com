@@ -54,7 +54,7 @@ This documents the *previous production* ownCloud release.
 Enterprise Appliance
 ====================
 
-The Enterprise 9.0 Appliance is a complete virtual machine image running ownCloud 9
+The Enterprise 9.1 Appliance is a complete virtual machine image running ownCloud 9
 Enterprise on Ubuntu Linux.
 
 * `Enterprise Appliance Manual <https://doc.owncloud.com/appliance/>`_
@@ -81,19 +81,9 @@ ownCloud Desktop Client 2.3, Latest Stable Releases
 
 The *latest* ownCloud desktop sync client release, suitable for production use.
 
-* `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/2.3/>`_ 
+* `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/latest/>`_ 
   (`Download PDF 
-  <https://doc.owncloud.com/desktop/2.3/ownCloudClientManual.pdf>`_)
-
----------------------------
-ownCloud Desktop Client 2.2
----------------------------
-
-The previous ownCloud desktop sync client release, suitable for production use.
-
-* `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/2.2/>`_ 
-  (`Download PDF 
-  <https://doc.owncloud.com/desktop/2.2/ownCloudClientManual.pdf>`_)
+  <https://doc.owncloud.com/desktop/latest/ownCloudClientManual.pdf>`_)
 
 -------------------- 
 ownCloud Android App  
@@ -128,16 +118,3 @@ ownCloud 8.2
 * `Developer Manual <https://doc.owncloud.com/server/8.2/developer_manual/>`_ 
   (`Download PDF 
   <https://doc.owncloud.com/server/8.2/ownCloudDeveloperManual.pdf>`_)
-
-------------
-ownCloud 8.1
-------------
-
-* `User Manual <https://doc.owncloud.com/server/8.1/user_manual/>`_ (`Download 
-  PDF <https://doc.owncloud.com/server/8.1/ownCloud_User_Manual.pdf>`_)
-* `Administration Manual <https://doc.owncloud.com/server/8.1/admin_manual/>`_ 
-  (`Download PDF   
-  <https://doc.owncloud.com/server/8.1/ownCloud_Server_Administration_Manual.pdf>`_)
-* `Developer Manual <https://doc.owncloud.com/server/8.1/developer_manual/>`_ 
-  (`Download PDF 
-  <https://doc.owncloud.com/server/8.1/ownCloudDeveloperManual.pdf>`_) ) 
