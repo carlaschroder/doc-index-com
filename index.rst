@@ -20,49 +20,34 @@ reports and contributions. Please see :doc:`howto_contribute` for instructions.
 Starting with ownCloud 8.0, the community and enterprise server administration 
 manuals are combined.
 
-------------------------------------
-Latest Stable Release - ownCloud 9.1
-------------------------------------
+----------------------------------------
+Latest Stable Release  - ownCloud 10.0.1
+----------------------------------------
 
-This documents the *latest production* ownCloud release.
+This documents the *latest production* version of ownCloud.
 
-* `User Manual <https://doc.owncloud.com/server/9.1/user_manual/>`_ (`Download 
-  PDF <https://doc.owncloud.com/server/9.1/ownCloud_User_Manual.pdf>`_)
-* `Administration Manual <https://doc.owncloud.com/server/9.1/admin_manual/>`_ 
+* `User Manual <https://doc.owncloud.com/server/10.0/user_manual/>`_ (`Download 
+  PDF <https://doc.owncloud.com/server/10.0/ownCloud_User_Manual.pdf>`_)
+* `Administration Manual <https://doc.owncloud.com/server/10.0/admin_manual/>`_ 
   (`Download PDF   
-  <https://doc.owncloud.com/server/9.1/ownCloud_Server_Administration_Manual.pdf>`_)
-* `Developer Manual <https://doc.owncloud.com/server/9.1/developer_manual/>`_ 
+  <https://doc.owncloud.com/server/10.0/ownCloud_Server_Administration_Manual.pdf>`_)
+* `Developer Manual <https://doc.owncloud.com/server/10.0/developer_manual/>`_ 
   (`Download PDF 
-  <https://doc.owncloud.com/server/9.1/ownCloudDeveloperManual.pdf>`_)  
+  <https://doc.owncloud.com/server/10.0/ownCloudDeveloperManual.pdf>`_)
 
---------------------------------------
-Previous Stable Release - ownCloud 9.0
---------------------------------------
+----------------------------------------
+Previous Stable Release  - ownCloud 10.0 
+----------------------------------------
 
 This documents the *previous production* version of ownCloud.
 
-* `User Manual <https://doc.owncloud.com/server/9.0/user_manual/>`_ (`Download 
-  PDF <https://doc.owncloud.com/server/9.0/ownCloud_User_Manual.pdf>`_)
-* `Administration Manual <https://doc.owncloud.com/server/9.0/admin_manual/>`_ 
-  (`Download PDF   
-  <https://doc.owncloud.com/server/9.0/ownCloud_Server_Administration_Manual.pdf>`_)
-* `Developer Manual <https://doc.owncloud.com/server/9.0/developer_manual/>`_ 
-  (`Download PDF 
-  <https://doc.owncloud.com/server/9.0/ownCloudDeveloperManual.pdf>`_)
-
------------------------------------
-Next Stable - Release ownCloud 10.0
------------------------------------
-
-This documents the *next* ownCloud release.
-
-* `User Manual <https://doc.owncloud.com/server/10.0/user_manual/>`_ (`Download
+* `User Manual <https://doc.owncloud.com/server/10.0/user_manual/>`_ (`Download 
   PDF <https://doc.owncloud.com/server/10.0/ownCloud_User_Manual.pdf>`_)
-* `Administration Manual <https://doc.owncloud.com/server/10.0/admin_manual/>`_
-  (`Download PDF
+* `Administration Manual <https://doc.owncloud.com/server/10.0/admin_manual/>`_ 
+  (`Download PDF   
   <https://doc.owncloud.com/server/10.0/ownCloud_Server_Administration_Manual.pdf>`_)
-* `Developer Manual <https://doc.owncloud.com/server/10.0/developer_manual/>`_
-  (`Download PDF
+* `Developer Manual <https://doc.owncloud.com/server/10.0/developer_manual/>`_ 
+  (`Download PDF 
   <https://doc.owncloud.com/server/10.0/ownCloudDeveloperManual.pdf>`_)
 
 ====================
