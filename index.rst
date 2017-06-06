@@ -17,14 +17,11 @@ Reporting Documentation Bugs & How to Contribute
 If you find an error or omission in any of the manuals, we welcome your bug 
 reports and contributions. Please see :doc:`howto_contribute` for instructions.
 
-Starting with ownCloud 8.0, the community and enterprise server administration 
-manuals are combined.
-
 ----------------------------------------
 Latest Stable Release  - ownCloud 10.0.1
 ----------------------------------------
 
-This documents the *latest production* version of ownCloud.
+This documents the latest production version of ownCloud.
 
 * `User Manual <https://doc.owncloud.com/server/10.0/user_manual/>`_ (`Download 
   PDF <https://doc.owncloud.com/server/10.0/ownCloud_User_Manual.pdf>`_)
@@ -39,7 +36,7 @@ This documents the *latest production* version of ownCloud.
 Previous Stable Release  - ownCloud 9.1 
 ---------------------------------------
 
-This documents the *previous production* version of ownCloud.
+This documents the previous production version of ownCloud.
 
 * `User Manual <https://doc.owncloud.com/server/9.1/user_manual/>`_ (`Download 
   PDF <https://doc.owncloud.com/server/9.1/ownCloud_User_Manual.pdf>`_)
@@ -75,11 +72,11 @@ clients.
   <https://doc.owncloud.com/branded_clients/Building_Branded_ownCloud_Clients.pdf>`_)
   
 
----------------------------------------------------
-ownCloud Desktop Client 2.3, Latest Stable Releases
----------------------------------------------------
+-----------------------
+ownCloud Desktop Client
+-----------------------
 
-The *latest* ownCloud desktop sync client release, suitable for production use.
+The latest ownCloud desktop sync client release, suitable for production use.
 
 * `ownCloud Desktop Client Manual <https://doc.owncloud.com/desktop/latest/>`_ 
   (`Download PDF 
@@ -103,14 +100,14 @@ ownCloud iOS App
 Older ownCloud Server Releases
 ==============================
 
-This documents the *older* ownCloud releases. Users are encouraged to 
-upgrade to the latest production release.
+These are the older ownCloud releases. 
+Users are encouraged to upgrade to the latest production release.
 
 ------------
 ownCloud 9.0
 ------------
 
-This documents the *previous production* version of ownCloud.
+This documents the previous production version of ownCloud.
 
 * `User Manual <https://doc.owncloud.com/server/9.0/user_manual/>`_ (`Download
   PDF <https://doc.owncloud.com/server/9.0/ownCloud_User_Manual.pdf>`_)
