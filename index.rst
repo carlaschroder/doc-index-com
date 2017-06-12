@@ -54,10 +54,9 @@ This documents the *previous production* version of ownCloud.
 Enterprise Appliance
 ====================
 
-The Enterprise 9.1 Appliance is a complete virtual machine image running ownCloud 9
-Enterprise on Ubuntu Linux.
+The ownCloud X Enterprise Appliance is a complete virtual machine image running ownCloud X Enterprise on Ubuntu Linux.
 
-* `Enterprise Appliance Manual <https://doc.owncloud.com/appliance/>`_
+* `ownCloud X Enterprise Appliance Manual <https://doc.owncloud.com/server/10.0/admin_manual/enterprise/appliance/index.html>`_
 
 ==============================
 Desktop Client and Mobile Apps
