@@ -17,9 +17,9 @@ Reporting Documentation Bugs & How to Contribute
 If you find an error or omission in any of the manuals, we welcome your bug 
 reports and contributions. Please see :doc:`howto_contribute` for instructions.
 
-----------------------------------------
-Latest Stable Release  - ownCloud 10.0.1
-----------------------------------------
+--------------------------------------
+Latest Stable Release  - ownCloud 10.0
+--------------------------------------
 
 This documents the latest production version of ownCloud.
 
