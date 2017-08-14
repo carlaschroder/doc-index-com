@@ -2,6 +2,11 @@
 ownCloud Documentation Overview
 ===============================
 
+.. toctree::
+    :maxdepth: 2
+     
+    index 
+
 ----------------
 Getting ownCloud
 ----------------
@@ -48,13 +53,12 @@ This documents the previous production version of ownCloud.
   <https://doc.owncloud.com/server/9.1/ownCloudDeveloperManual.pdf>`_)
 
 ====================
-Enterprise Appliance
+ownCloud X Appliance
 ====================
 
-The Enterprise 9.1 Appliance is a complete virtual machine image running ownCloud 9
-Enterprise on Ubuntu Linux.
+The ownCloud X Appliance is a complete virtual machine image running ownCloud X, on Univention Server.
 
-* `Enterprise Appliance Manual <https://doc.owncloud.com/appliance/>`_
+* `ownCloud X Appliance Manual <https://doc.owncloud.org/server/latest/admin_manual/appliance/index.html>`_
 
 ==============================
 Desktop Client and Mobile Apps
